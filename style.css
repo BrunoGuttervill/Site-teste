@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif, "Poppins";
+  font-family: 'Playwrite Ireland','Poppins', Arial, Helvetica, sans-serif, ;
 }
 
 html {
@@ -31,7 +31,7 @@ body {
   top: 0;
   z-index: 1000;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins';
 }
 
 .logo {
