@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecologi+</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">
+      <div class="logo-icone">🌿</div>
+      <div class="logo-texto">
+        <h1>ECOLOGI+</h1>
+        <p>Conscientização Ambiental</p>
+      </div>
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+
+    <nav class="menu" id="menu">
+      <a href="#home">Home</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero reveal">
+      <div class="hero-overlay">
+        <h2>Preservar hoje para existir amanhã</h2>
+        <p>
+          Promovemos ações de conscientização ambiental, proteção da natureza
+          e incentivo a práticas sustentáveis.
+        </p>
+        <a href="#sobre" class="btn">Saiba mais</a>
+      </div>
+    </section>
+
+    <section class="intro reveal">
+      <div class="container">
+        <p>
+          A Ecologi+ é uma iniciativa voltada à conscientização ambiental,
+          preservação dos recursos naturais e construção de um futuro mais
+          sustentável para todos.
+        </p>
+      </div>
+    </section>
+
+    <section id="sobre" class="galeria-section reveal">
+      <div class="container">
+        <h2>Nossos Projetos</h2>
+
+        <div class="galeria">
+          <a href="https://pt.wikipedia.org/wiki/Conserva%C3%A7%C3%A3o_da_natureza" target="_blank" class="card">
+            <img
+              src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
+              alt="Floresta preservada"
+            />
+            <div class="card-conteudo">
+              <h3>Preservação de Florestas</h3>
+              <p>
+                Ações educativas e campanhas voltadas à proteção de áreas verdes
+                e da biodiversidade.
+              </p>
+              <span class="card-link">Clique para saber mais</span>
+            </div>
+          </a>
+
+          <a href="https://pt.wikipedia.org/wiki/Recurso_h%C3%ADdrico" target="_blank" class="card">
+            <img
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+              alt="Rio e natureza"
+            />
+            <div class="card-conteudo">
+              <h3>Proteção das Águas</h3>
+              <p>
+                Incentivo ao uso consciente da água e projetos de recuperação de
+                rios e nascentes.
+              </p>
+              <span class="card-link">Clique para saber mais</span>
+            </div>
+          </a>
+
+          <a href="https://pt.wikipedia.org/wiki/Desenvolvimento_sustent%C3%A1vel" target="_blank" class="card">
+            <img
+              src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=80"
+              alt="Área natural"
+            />
+            <div class="card-conteudo">
+              <h3>Educação Sustentável</h3>
+              <p>
+                Conteúdos e atividades para desenvolver hábitos sustentáveis no
+                dia a dia.
+              </p>
+              <span class="card-link">Clique para saber mais</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre-extra reveal">
+      <div class="container">
+        <h2>Por que isso importa?</h2>
+        <p>
+          O cuidado com o meio ambiente é essencial para garantir qualidade de
+          vida, equilíbrio climático e preservação dos ecossistemas. Pequenas
+          atitudes geram grandes transformações quando feitas em conjunto.
+        </p>
+      </div>
+    </section>
+
+    <section id="contato" class="contato reveal">
+      <div class="container">
+        <h2>Contato</h2>
+
+        <form id="form-contato" class="formulario">
+          <input type="text" id="nome" placeholder="Seu nome" required />
+          <input type="email" id="email" placeholder="Seu e-mail" required />
+          <textarea
+            id="mensagem"
+            placeholder="Digite sua mensagem"
+            rows="5"
+            required
+          ></textarea>
+
+          <div class="botoes-formulario">
+            <button type="button" class="btn whatsapp" id="btn-whatsapp">
+              Enviar no WhatsApp
+            </button>
+            <button type="button" class="btn email" id="btn-email">
+              Enviar por E-mail
+            </button>
+          </div>
+
+          <p id="retorno-form" class="retorno-form"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© 2026 Ecologi+ - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
