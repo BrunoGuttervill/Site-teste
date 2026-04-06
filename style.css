@@ -37,14 +37,14 @@ color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 12px 50px;
   position: fixed;
   top: 0;
   width: 100%;
   transition: transform 0.35s ease;
   z-index: 1000;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 .nav.escondido {
@@ -63,13 +63,18 @@ color: #ffffff;
 }
 
 .logo-texto h1 {
-  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 29px;
+  letter-spacing: 0.08em;
   color: #f1f5f5;
 }
 
 .logo-texto p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 12px;
-  color: #fcfcfc;
+  letter-spacing: 0.12em;
+  color: #cccccc;
 }
 
 .menu {
@@ -83,6 +88,9 @@ color: #ffffff;
   font-weight: bold;
   position: relative;
   transition: 0.3s;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 .menu a::after {
