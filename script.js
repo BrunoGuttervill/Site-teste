@@ -79,3 +79,20 @@ btnEmail.addEventListener("click", () => {
 
   window.location.href = link;
 });
+
+// Hide/show nav on scroll
+let ultimoScroll = window.scrollY;
+
+window.addEventListener('scroll', () => {
+  const scrollAtual = window.scrollY;
+
+  if (scrollAtual > ultimoScroll && scrollAtual > 60) {
+    // rolando para baixo e passou dos 60px → esconde
+    document.querySelector('.nav').classList.add('escondido');
+  } else {
+    // qualquer scroll para cima → mostra
+    document.querySelector('.nav').classList.remove('escondido');
+  }
+
+  ultimoScroll = scrollAtual;
+});
